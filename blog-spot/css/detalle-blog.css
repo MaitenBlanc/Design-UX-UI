@@ -1,0 +1,21 @@
+.detalle-blog-main img {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.detalle-blog-info-container {
+    margin: 0 8rem 0 8rem;
+}
+
+.detalle-blog-info-container h3 {
+    display: flex;
+    /* width: 80%;s */
+    border-bottom: 1px solid #cdd2da;  
+    padding: 2rem 0 1rem 0;
+}
+
+.post-container {
+    text-align: justify;
+    margin-bottom: 3rem;
+}
