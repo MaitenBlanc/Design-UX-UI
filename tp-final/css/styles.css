@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #CEA561;
+    --secondary-color: #ababab;
+    --font-league: 'League Spartan', sans-serif;
+    --font-lora: 'Lora', serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+    background-image: url("../assets/img/banner.svg");
+    background-position: center;
+    height: 30rem;
+    padding: 2rem 7rem;
+    gap: 2rem;
+    font-family: var(--font-league);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-menu-container > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu-container li {
+    font-weight: lighter;
+    gap: 1rem;
+    margin: 1rem 1rem;
+}
+
+.nav-menu-container a {
+color: #fff;
+}
+
+.nav-menu-container li.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.nav-menu-container li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    margin: 0;
+    width: 100%;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
+.header-icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-icons-container a span {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    padding: 0.5rem;
+    color: #000;
+    font-size: 1rem;
+}
+
+.header-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    border: none;
+}
+
+.header-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.2rem;
+}
+
+.header-text h1 {
+    font-family: var(--font-lora);
+    font-weight: 100;
+}
+
+.header-text h4 {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #1a1a1a;
+    font-family: var(--font-league);
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+footer p {
+    color: var(--secondary-color);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    padding: 5rem 7rem;
+    gap: 3rem;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-family: var(--font-lora);
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer-content a, .footer-contact p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-contact h3 {
+    font-weight: 400;
+}
+
+.footer-contact img {
+    width: 1rem;
+}
+
+.footer-copyright {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
