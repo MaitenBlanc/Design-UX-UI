@@ -21,15 +21,15 @@
     <header>
         <nav class="header-menu-container">
             <section class="nav-logo-container">
-                <a href="#"></a><img src="../assets/img/logo.png" alt="Logo Gloss & Glam">
+                <a href="./"><img src="../assets/img/logo.png" alt="Logo Gloss & Glam"></a>
             </section>
 
             <section class="nav-menu-container">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="./">About Us</a></li>
+                    <li class="active"><a href="./">Home</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
                     <li class="dropdown">
-                        <a href="#">Services <img src="../assets/img/Vector.svg" alt="">
+                        <a href="#our-services">Services <img src="../assets/img/Vector.svg" alt="">
                         </a>
                         <ul class="dropdown-content">
                             <li><a href="#">Hair Cut</a></li>
@@ -42,9 +42,9 @@
                             <li><a href="#">Wedding Package</a></li>
                         </ul>
                     </li>
-                    <li><a href="./">Pricing</a></li>
-                    <li><a href="./">Appointment</a></li>
-                    <li><a href="./">Contact</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#appointment">Appointment</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </section>
 
@@ -74,7 +74,7 @@
     </header>
 
     <main class="home-main-container">
-        <section class="home-main-our-services">
+        <section class="home-main-our-services" id="our-services">
             <div class="home-main-text">
                 <h2>Our Services</h2>
                 <p>Borem ipsum dolor sit amet, consectetur adipiscin elit. Nunc vulputate libero amet,
@@ -118,7 +118,7 @@
             </div>
         </section>
 
-        <section class="home-main-our-packages">
+        <section class="home-main-our-packages" id="pricing">
             <div class="home-main-text">
                 <h2>Our Packages</h2>
                 <p>Choose The Option That Fits You The Best</p>
@@ -205,7 +205,7 @@
             </div>
         </section>
 
-        <section class="home-main-appointment">
+        <section class="home-main-appointment" id="appointment">
             <div class="home-main-text">
                 <h2>Make An Appointment</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum justo sit amet dui
