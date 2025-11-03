@@ -1,0 +1,120 @@
+.checkout-main-container {
+    padding: 4rem 7rem;
+    font-family: var(--font-league);
+}
+
+.checkout-form {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.billing-details,
+.your-order {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.billing-details h2,
+.your-order h2 {
+    font-family: var(--font-lora);
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.billing-details .form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.billing-details input {
+    padding: 1.2rem;
+    background-color: var(--dark-gray);
+    border: 1px solid var(--border-gray);
+    border-radius: 0.5rem;
+    font-family: var(--font-league);
+    font-size: 1rem;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.your-order {
+    background-color: var(--dark-gray);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.your-order h2 {
+    text-align: center;
+}
+
+.order-summary {
+    width: 100%;
+}
+
+.summary-header,
+.summary-item,
+.summary-row,
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.summary-header {
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.order-summary hr {
+    border: none;
+    border-top: 1px solid var(--border-gray);
+    margin: 1.5rem 0;
+}
+
+.summary-row span:first-child {
+    color: var(--secondary-color);
+}
+
+.summary-total {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.discount-amount {
+    color: #ff0000;
+}
+
+.payment-method {
+    margin-top: 1rem;
+    border-top: 1px solid var(--border-gray);
+    padding-top: 2rem;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.payment-details {
+    background-color: #1A1A1A;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.place-order-button {
+    width: 100%;
+}

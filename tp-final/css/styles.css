@@ -3,6 +3,8 @@
     --secondary-color: #ABABAB;
     --dark-gray: #2B2B2B;
     --background-gray: #1A1A1A;
+    --border-gray: #585858af;
+
     --font-league: 'League Spartan', sans-serif;
     --font-lora: 'Lora', serif;
 }
@@ -13,6 +15,7 @@
     text-decoration: none;
     list-style: none;
     color: #fff;
+    user-select: none;
 }
 
 main {
@@ -213,7 +216,7 @@ button {
     width: 40%;
 }
 
-.our-services-card a {
+.our-services-card p {
     font-family: var(--font-lora);
     font-weight: 100;
     font-size: 1.2rem;
@@ -320,7 +323,7 @@ button {
     padding: 1rem;
     width: 400px;
     background-color: var(--dark-gray);
-    border: 1px solid #585858af;
+    border: 1px solid var(--border-gray);
     border-radius: 0.5rem;
 }
 
@@ -431,161 +434,4 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-/* --------------------------------------------------------------------------------------- */
-
-/* ABOUT US */
-.about-us-intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 4rem;
-    padding: 6rem 7rem;
-    font-family: var(--font-league);
-    background-color: var(--background-gray);
-}
-
-.about-us-intro-img img {
-    width: 100%;
-    border-radius: 0.5rem;
-}
-
-.about-us-intro-text h2 {
-    font-family: var(--font-lora);
-    font-weight: 100;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-.about-us-intro-text p {
-    font-weight: 100;
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.home-main-our-services .our-services-card img {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-
-.team-section {
-    text-align: center;
-    padding: 4rem 7rem;
-}
-
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin-top: 4rem;
-}
-
-.team-member-card {
-    background-color: var(--dark-gray);
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    padding: 2rem;
-    text-align: center;
-}
-
-.team-member-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.team-member-card h3 {
-    font-family: var(--font-lora);
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-}
-
-.team-member-card h4 {
-    font-family: var(--font-league);
-    font-size: 1rem;
-    color: var(--primary-color);
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-
-.team-member-card p {
-    font-family: var(--font-league);
-    color: var(--secondary-color);
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-/* TESTIMONIALS */
-.testimonials-section {
-    padding: 6rem 7rem;
-    text-align: center;
-}
-
-.testimonials-section h2 {
-    font-family: var(--font-lora);
-    font-weight: 100;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-}
-
-.testimonial-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.testimonial-card {
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    padding: 2.5rem;
-    font-family: var(--font-league);
-}
-
-.testimonial-card p {
-    font-size: 1.1rem;
-    color: var(--secondary-color);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.testimonial-card cite {
-    font-style: normal;
-    font-weight: bold;
-    color: #fff;
-}
-
-/* CTA */
-.cta-section {
-    padding: 6rem 7rem;
-    text-align: center;
-    font-family: var(--font-league);
-    background-color: var(--background-gray);
-}
-
-.cta-section h2 {
-    font-family: var(--font-lora);
-    font-size: 2.5rem;
-    font-weight: 100;
-    margin-bottom: 1rem;
-}
-
-.cta-section p {
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-    margin-bottom: 2.5rem;
-}
-
-.cta-button {
-    background-color: var(--primary-color);
-    color: var(--dark-gray);
-    padding: 1rem 2.5rem;
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
 }

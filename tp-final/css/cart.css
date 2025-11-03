@@ -1,0 +1,137 @@
+.cart-main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    padding: 4rem 7rem;
+    font-family: var(--font-league);
+    align-items: flex-start;
+}
+
+.cart-table-header,
+.cart-item {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.cart-table-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    border-top: 1px solid var(--border-gray);
+}
+
+.header-product {
+    grid-column: 1;
+}
+
+.header-price, .cart-price {
+    grid-column: 2;
+    text-align: center;
+}
+
+.header-quantity, .cart-quantity {
+    grid-column: 3;
+    text-align: center;
+}
+
+.header-subtotal, .cart-subtotal {
+    grid-column: 4;
+    text-align: right;
+}
+
+.cart-product {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cart-product img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background-color: var(--dark-gray);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--border-gray);
+}
+
+.product-details p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.remove-item {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.cart-quantity input {
+    width: 60px;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--dark-gray);
+    border: 1px solid var(--border-gray);
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.cart-subtotal {
+    font-weight: bold;
+}
+
+.cart-summary-section {
+    background-color: var(--dark-gray);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.cart-summary-section h3 {
+    font-family: var(--font-lora);
+    font-weight: 100;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.summary-row,
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.summary-row span:first-child {
+    color: var(--secondary-color);
+}
+
+.cart-summary-section hr {
+    border: none;
+    border-top: 1px solid var(--border-gray);
+    margin: 1.5rem 0;
+}
+
+.summary-total {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.discount-amount {
+    color: #ff0000;
+}
+
+.checkout-button {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-gray);
+}

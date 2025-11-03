@@ -1,0 +1,46 @@
+.order-complete-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 7rem;
+    font-family: var(--font-league);
+}
+
+.order-complete-card {
+    background-color: var(--dark-gray);
+    padding: 3rem 4rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.success-icon {
+    font-size: 5rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.order-complete-card h2 {
+    font-family: var(--font-lora);
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.order-complete-card p {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.order-complete-card .btn-primary {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,4 @@
+Hacer páginas:
+"Sign Up"
+
+Hacer responsive
