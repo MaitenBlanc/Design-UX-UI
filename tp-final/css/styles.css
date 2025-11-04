@@ -297,9 +297,55 @@ button {
     margin-top: 0;
 }
 
-.appointment-form img {
-    width: 50%;
+/* CALENDARIO */
+.datepicker-inline{
+    margin-bottom: 2rem;
 }
+
+.flatpickr-calendar {
+    background: var(--dark-gray);
+    border-radius: 0.5rem;
+    font-family: var(--font-league);
+}
+
+.flatpickr-month {
+    font-family: var(--font-lora);
+    font-weight: 500;
+}
+
+.flatpickr-weekday {
+    color: #777;
+    font-weight: 600;
+}
+
+.flatpickr-day {
+    color: #fff;
+    font-weight: 300;
+}
+
+.flatpickr-day.today {
+    border-color: var(--primary-color);
+}
+
+.flatpickr-day.today:hover {
+    background: #444;
+}
+
+.flatpickr-day.selected {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #000;
+}
+
+.flatpickr-day:hover {
+    background: #444;
+    border: 1px solid var(--primary-color);
+}
+
+.flatpickr-next-month svg {
+    fill: var(--primary-color);
+}
+/* FIN CALENDARIO */
 
 .appointment-form .btn-primary {
     margin-bottom: 4rem;
@@ -309,6 +355,13 @@ button {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.form-time button.active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #000;
+    font-weight: 600;
 }
 
 .form-data {
