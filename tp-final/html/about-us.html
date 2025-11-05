@@ -24,7 +24,11 @@
             <section class="nav-logo-container">
                 <a href="./index.html"><img src="../assets/img/logo.png" alt="Logo Gloss & Glam"></a>
             </section>
-
+            
+            <div class="hamburger-menu">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            
             <section class="nav-menu-container">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
@@ -47,22 +51,24 @@
                     <li><a href="./index.html#appointment">Appointment</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
-            </section>
-
-            <section class="header-icons-container">
-                <a href="./cart.html">
-                    <span class="material-symbols-outlined">
-                        shopping_cart
-                    </span>
-                </a>
-
-                <a href="#">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </a>
-
-                <a href="./sign-up.html" class="header-button">Sign Up</a>
+                <div class="close-menu">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+                <section class="header-icons-container">
+                    <a href="./cart.html">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+    
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </a>
+    
+                    <button class="header-button"><a href="./sign-up.html">Sign Up</a></button>
+                </section>
             </section>
 
         </nav>
@@ -175,7 +181,6 @@
     <footer>
         <section class="footer-content">
             <div class="footer-icons">
-
                 <img src="../assets/img/logo.png" alt="Logo Gloss & Glam">
 
                 <p>Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
@@ -188,31 +193,32 @@
                 </div>
             </div>
 
-            <div>
-                <h2>Services</h2>
-                <a href="#">Hair Cut</a>
-                <a href="#">Hair Dye</a>
-                <a href="#">Shaving</a>
-                <a href="#">Facial</a>
-                <a href="#">Massage</a>
+            <div class="footer-content-links">
+                <div>
+                    <h2>Services</h2>
+                    <a href="#">Hair Cut</a>
+                    <a href="#">Hair Dye</a>
+                    <a href="#">Shaving</a>
+                    <a href="#">Facial</a>
+                    <a href="#">Massage</a>
+                </div>
+                <div>
+                    <h2>Related Links</h2>
+                    <a href="#">About Us</a>
+                    <a href="#">Our Blog</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Social Links</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div>
+                    <h2>Terms</h2>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Tax Forms</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">FAQs</a>
+                </div>
             </div>
-            <div>
-                <h2>Related Links</h2>
-                <a href="#">About Us</a>
-                <a href="#">Our Blog</a>
-                <a href="#">Pricing</a>
-                <a href="#">Social Links</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div>
-                <h2>Terms</h2>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Tax Forms</a>
-                <a href="#">FAQs</a>
-                <a href="#">FAQs</a>
-            </div>
-
             <div class="footer-contact">
                 <h2>Contact Us</h2>
                 <h3><img src="../assets/img/location.svg" alt="Logo location"> Location</h3>
@@ -229,6 +235,8 @@
             <p>Copyright © 2025 Maiten Blanc. All Rights Reserved</p>
         </section>
     </footer>
+
+    <script src="../js/menu.js"></script>
 
 </body>
 
