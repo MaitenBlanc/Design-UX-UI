@@ -118,3 +118,18 @@
 .place-order-button {
     width: 100%;
 }
+
+/* -------------------------------- RESPONSIVE -------------------------------- */
+/* MOBILE */
+@media (max-width: 768px) {
+    .checkout-main-container {
+        padding: 1rem;
+    }
+
+    .checkout-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        align-items: flex-start;
+    }
+}

@@ -44,3 +44,11 @@
     justify-content: center;
     align-items: center;
 }
+
+/* -------------------------------- RESPONSIVE -------------------------------- */
+/* MOBILE */
+@media (max-width: 768px) {
+    .order-complete-main-container {
+        padding: 1rem;
+    }
+}
